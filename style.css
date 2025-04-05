@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+nav {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4%;
+    padding: 10px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
+}
+.logo {
+    color: #e59a0e;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "DM Sans", serif;
+}
+nav a {
+    color: #e59a0e;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "DM Sans", serif;
+    font-style: normal;
+}
+#homepage {
+    background-color: #2b2a2a;
+    position: relative;
+    height: 100svh;
+    width: 100svw;
+    padding-top: 5svh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeadverb {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    color: #e59a0e;
+    padding: 45px;
+  }
+#financepage {
+    background-color: #2b2a2a;
+    height: 100svh;
+    width: 100%;
+    padding-top: 5svh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+.findescr1 {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #e59a0e;
+    padding: 15px;
+}
+.findescr2 {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #e59a0e;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#currencypage {
+    background-color: #2b2a2a;
+    position: relative;
+    height: 100svh;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    padding-top: 5svh; 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+.currency-h1{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #e59a0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+#wishlistpage {
+    background-color: #2b2a2a;
+    border: blue 2px solid;
+    height: 100svh;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 5svh; 
+}
+
+#advicepage {
+    background-color: #2b2a2a;
+    position: relative;
+    height: 100svh;
+    width: 100%;
+    padding-top: 5svh; 
+}
+.logo {
+    margin-left: 100px;
+}
+.contact {
+    margin: 0px;
+    margin-right: 40px;
+}
+.navfuns {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 60px;
+}
+.reph1 {
+    color: #e59a0e;
+    text-decoration: none;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.repp1 {
+    color: #e9af10;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Amatic SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.repp2 {
+    color: #e9af10;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Amatic SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 25px;
+}
+.repp3 {
+    color: #e9af10;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Amatic SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 25px;
+}
+.finreptxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.robofin-flag {
+    display: flex;
+    width: 40%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+}
+.fintable {
+    background-color: #181818;
+    color: white;
+    border: 1px solid #e59a0e;
+    border-radius: 10px;
+}
+table th {
+    text-align: center;
+    padding: 10px;
+}
+table td {
+    border-left: 2px solid #5c5c5c;
+    text-align: center;
+    padding: 5px;
+}
+.financial-report {
+    padding-top: 50px;
+}
+input {
+    background-color: #181818;
+    color: white;
+    border: 1px solid #e59a0e;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+}
+#currency-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#conversion-result {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #e59a0e;
+    font-size: 1em;
+}
+#currency-form input, #currency-form select {
+    padding: 30px;
+    border: 2px solid #e59a0e;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+#conversion-result {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#wishlist-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#wishlist-form input, #wishlist-form select, #wishlist-form textarea {
+    padding: 10px;
+    border: 1px solid #e59a0e;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: white;
+    width: 80%;
+}
+
+#wishlist-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e59a0e;
+    color: white;
+    cursor: pointer;
+}
+
+#wishlist-form button#cancel-wishlist {
+    background-color: #555;
+}
+
+.wishlist-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.wishlist-table th, .wishlist-table td {
+    border: 1px solid #e59a0e;
+    padding: 10px;
+    text-align: center;
+}
+
+.wishlist-table th {
+    background-color: #1e1e1e;
+}
+
+.wishlist-table td {
+    background-color: #2b2a2a;
+}
+
+.wishlist-table .delete-btn {
+    background-color: #e59a0e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.wishlist-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+table {
+    background-color: #181818;
+    color: white;
+    border: 2px solid #E59A0E;
+    border-radius: 10px;
+}
+table td {
+    border-left: 2px solid #5c5c5c;
+    text-align: center;
+}
+.financial-report {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.finform {
+    margin-top: 15px;
+}
+.fintable {
+    padding: 15px;
+}
+input {
+    background-color: #181818;
+    color: white;
+    border: 1px solid #E59A0E;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+}
+.lesson {
+    border: 1px solid #e59a0e;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.lesson-header {
+    border-bottom: 1px solid #e59a0e;
+    background: #181818;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.lesson-content {
+    display: none;
+    padding: 10px;
+    background: #181818;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+}
+.advice-h1{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #e59a0e;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+footer {
+    background-color: #2b2a2a;
+    position: relative;
+    height: 10svh;
+    width: 100svw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-h1 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #e59a0e;
+    font-size: 3em;
+}
+.footer-p {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #e59a0e;
+}
